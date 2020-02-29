@@ -2,7 +2,7 @@
 ## コンセプト
 劇団四季の週間予定キャストから、推しの出演予定を抜粋してLINEでお知らせします（公式の更新に合わせて、基本的には毎週月曜日）。
 友人に頼まれて作りましたが、管理人はにわかファンなのでお手やわらかにお願いします。
-![Screenshot_20200301-031141_LINE](https://user-images.githubusercontent.com/26474260/75613091-25aed880-5b6d-11ea-8f31-1317f9a42e12.jpg)
+<img src="https://user-images.githubusercontent.com/26474260/75613091-25aed880-5b6d-11ea-8f31-1317f9a42e12.jpg" width="200px">
 
 ## 準備
 このLINEアカウントを友達登録するだけです。以下のQRコードかID検索（`@832ccfcp`）でどうぞ
@@ -17,7 +17,7 @@
 
 ### 確認
 何でもいいのでスタンプを送信すると、登録中の推しを確認できます。
-![Screenshot_20200301-031615_LINE](https://user-images.githubusercontent.com/26474260/75613094-27789c00-5b6d-11ea-8a64-a4107812e6f6.jpg)
+<img src="https://user-images.githubusercontent.com/26474260/75613094-27789c00-5b6d-11ea-8a64-a4107812e6f6.jpg" width="200px">
 
 ## Q and A
 ### 推しが登録できません。
