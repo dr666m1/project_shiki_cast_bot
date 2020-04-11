@@ -21,7 +21,7 @@
 ### 確認
 何でもいいのでスタンプを送信すると、登録中の推しを確認できます。
 
-<img src="https://user-images.githubusercontent.com/26474260/75613094-27789c00-5b6d-11ea-8a64-a4107812e6f6.jpg" width="500px">
+<img src="https://user-images.githubusercontent.com/26474260/79039390-fa171780-7c1b-11ea-9ef2-b94cf1c7cb8f.jpg" width="500px">
 
 ## Q and A
 ### 推しが登録できません。

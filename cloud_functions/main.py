@@ -11,7 +11,6 @@ import config_line
 
 #===== common =====
 base_url = "https://www.shiki.jp/cast/"
-yyyymmdd = datetime.datetime.now().strftime("%Y%m%d")
 
 def get_html_element(url):
     html = requests.get(url).text
@@ -76,11 +75,12 @@ def check_update():
 #===== scrape =====
 def parse_cast_td(td):
     html = lxml.html.tostring(td, encoding="utf-8").decode()
-    casts = [re.sub("（.*）|<[^<]*>|[ 　]+", "", x) for x in html.split("<br>")]
+    casts = [re.sub(r"（.*）|<[^<]*>|[ 　]+", "", x) for x in html.split("<br>")]
     return casts
 
 def scrape():
     random_sleep()
+    yyyymmdd = datetime.datetime.now().strftime("%Y%m%d")
     prod_infos = get_prod_infos()
     n_prod = len(prod_infos["urls"])
     client = datastore.Client()
@@ -103,7 +103,7 @@ def scrape():
 #===== weekly message =====
 msg = "今週【{}】さんが「{}」に出演します。\n当日券で会いに行きましょう！"
 
-def send_msg(updatedAt=yyyymmdd):
+def send_msg(updatedAt=datetime.datetime.now().strftime("%Y%m%d")):
     client = datastore.Client()
     line_bot_api = LineBotApi(config_line.token)
     # get all casts
